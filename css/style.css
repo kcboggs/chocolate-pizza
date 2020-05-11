@@ -1,0 +1,13 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+header{
+  padding-left: 1000px;
+  margin-bottom: 50px;
+}
+p1{
+  font-style: italic;
+  font-family: cursive;
+  text-align: left;
+}
