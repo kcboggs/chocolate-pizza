@@ -26,4 +26,23 @@ p1{
   font-family: cursive;
   text-align: left;
 }
+input[type=checkbox] + label{
+  display: block;
+}
+input[type=checkbox] + label:before{
+  content:"\2714";
+  border: 0.1em solid #000;
+  border-radius: 0.2em;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  padding-left: 0.1em;
+  padding-bottom: 0.1em;
+  margin-right: 0.1em;
+  horizontal-align: bottom;
+  color: transparent;
+}
+input[type=checkbox]{
+  display: none;
+}
 
